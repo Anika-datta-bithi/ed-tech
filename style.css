@@ -10,3 +10,48 @@
 #size {
     height: 250px;
 }
+
+
+@media (min-width: 400px) and (max-width: 576px) {
+    body {
+        background-color: pink;
+
+    }
+
+    #invisible {
+        visibility: hidden;
+
+    }
+
+    #visible-caption {
+        visibility: visible;
+        padding-top: 3px;
+        font-size: 10px;
+    }
+
+    style {
+        visibility: hidden;
+    }
+
+    #visible {
+        width: 95%;
+
+    }
+
+    #hig {
+        font-size: 10px;
+        display: grid;
+    }
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    body {
+        background-color: blueviolet;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    body {
+        background-color: blueviolet;
+    }
+}
